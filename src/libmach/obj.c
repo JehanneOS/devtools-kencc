@@ -31,7 +31,7 @@ int	_is5(char*),
 	_read5(Biobuf*, Prog*),
 	_read6(Biobuf*, Prog*),
 	_read8(Biobuf*, Prog*),
-	_read9(Biobuf*, Prog*),
+//	_read9(Biobuf*, Prog*),
 	_readk(Biobuf*, Prog*),
 	_readq(Biobuf*, Prog*),
 	_readv(Biobuf*, Prog*);
@@ -63,7 +63,7 @@ static Obj	obj[] =
 	/*[ObjSparc64]*/	{0, 0,},
 	/*[ObjAmd64]*/	"amd64 .6",	_is6, _read6,
 	/*[ObjSpim]*/	{0, 0,},
-	/*[ObjPower64]*/	"power64 .9",	_is9, _read9,
+//	/*[ObjPower64]*/	"power64 .9",	_is9, _read9,
 	/*[Maxobjtype]*/	0, 0
 };
 

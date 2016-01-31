@@ -10,6 +10,7 @@ OFILES=\
 	pass.$O\
 	span.$O\
 	enam.$O\
+	compat.$O\
 	$TARGMODEL.$O\
 
 HFILES=\

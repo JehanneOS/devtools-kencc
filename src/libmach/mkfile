@@ -18,7 +18,7 @@ OFILES=\
 	5obj.$O\
 	6obj.$O\
 	8obj.$O\
-	9obj.$O\
+#	9obj.$O\
 	kobj.$O\
 	qobj.$O\
 	vobj.$O\

@@ -3,7 +3,7 @@
 /*
  * fake malloc
  */
-void*
+/*void*
 malloc(ulong n)
 {
 	void *p;
@@ -47,7 +47,7 @@ void*
 mysbrk(ulong size)
 {
 	return sbrk(size);
-}
+}*/
 
 void
 setmalloctag(void *v, ulong pc)
